@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 1.5rem;
+  background-color: aqua;
+}
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* typography */
+.btn button {
+  font-size: 1.5rem;
+  padding: .1rem 3rem;
+  margin-bottom: 2em;
+  text-transform: capitalize;
+  color: red;
+  border:  2px solid red;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  border-bottom: 2px solid black;
+}
+h3  {
+    margin-left: 1em;
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+ 
+}
+
+p, .read-more {
+  margin: 0 1em;
+}
+
+.read-more {
+  border: none;
+  background: transparent;
+  color: blue;
+}
+
+/* layout */
+main {
+  padding: 2em ;
+}
+
+.tour-div {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.btn {
+  text-align: center;
+  margin:2em 0;
+}
+
+.tour-info {
+  background: #fff;
+  width: 400px;
+   
+}
+
+@media (min-width:750px) {
+  
+  .tour-div {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .tour-info {
+    width: 300px;
+    margin-left: 1em;
+  }
+}
+
+
+
